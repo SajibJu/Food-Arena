@@ -2,3 +2,35 @@ h1{
     background-color: aquamarine;
     color: blue;
 }
+.menu{
+    display: inline-flex;
+    background-color: aquamarine;
+  }
+  .foodarena{
+    color: orange;
+  }
+  .menu-list {
+    width: 70%;
+  }
+  .order-button {
+    width: 50%;
+    margin-right: 30px;
+    margin-top: 15px;
+  }
+  .menu ul {
+    display: flex;
+    list-style-type: none;
+  }
+  .menu ul li {
+    margin-left: 20px;
+  }h3 {
+    font-size: 30px;
+  }
+  .button {
+    background-image: linear-gradient(to right, orange, rgb(255, 84, 4));
+    padding: 12px 30px;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    /* box-shadow: 5px 5px 40px orangered; */
+  }
