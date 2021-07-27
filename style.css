@@ -1,7 +1,11 @@
 h1{
-    background-color: aquamarine;
-    color: blue;
+    
+    color: #575757;
 }
+
+.heading {
+    margin-top: 100px;
+  }
 .menu{
     display: inline-flex;
     background-color: aquamarine;
@@ -33,4 +37,27 @@ h1{
     color: white;
     border-radius: 30px;
     /* box-shadow: 5px 5px 40px orangered; */
+  }
+  .female {
+    width: 40%;
+  }
+  .diet{
+      width: 50%;
+  }
+  body {
+    font-family: "Montserrat";
+    font-weight: 400;
+   
+  }
+  .text{
+      color: orange;
+  }
+  section {
+    margin-bottom: 80px;
+  }
+  .logo {
+    margin-left: 80px;
+  }
+  .foodarena{
+      width: fit-content;
   }
