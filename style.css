@@ -16,64 +16,37 @@ h1{
   .menu-list {
     width: 70%;
   }
-  .order-button {
-    width: 50%;
-    margin-right: 30px;
-    margin-top: 15px;
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-  .menu ul {
-    display: flex;
-    list-style-type: none;
+  body {
+    font-family: "Montserrat", sans-serif;
   }
-  .menu ul li {
-    margin-left: 20px;
-  }h3 {
-    font-size: 30px;
-  }
-  .button {
-    background-image: linear-gradient(to right, orange, rgb(255, 84, 4));
-    padding: 12px 30px;
-    text-decoration: none;
-    color: white;
-    border-radius: 30px;
-    /* box-shadow: 5px 5px 40px orangered; */
-  }
-  .female {
-    width: 40%;
+  img {
+    width: 100%;
   }
   
-  body {
-    font-family: "Montserrat";
-    font-weight: 400;
-   
+  h2 {
+    color: #707070;
+    font-weight: 700;
+    font-size: 40px;
   }
- 
-  section {
-    margin-bottom: 80px;
+  
+  p {
+    color: #18191f;
+    font-size: 18px;
+    line-height: 32px;
   }
-  .logo {
-    margin-left: 80px;
+  
+  span {
+    color: #fba24f;
   }
-  .foodarena{
-      width: fit-content;
+  .section-wrap {
+    padding: 80px 0;
   }
-  .header-left h1 {
-    font-size: 60px;
-
-    margin-bottom: 40px;
-    color: #575757;
-    font-weight: bold;
-  }
-  .header-left {
-    width: 50%;
-}
-.header-left p {
-  font-size: 20px;
-  padding-right: 20%;
-  margin-bottom: 50px;
-  color: #828282;
-  line-height: 32px;
-}
+  
   .container {
     display: flex;
     justify-content: center;
@@ -81,28 +54,139 @@ h1{
     width: 85%;
     margin: 0 auto;
   }
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  
+  .non-flex-container {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .header-left {
+    width: 50%;
+  }
+  
+  .header-left h1 {
+    font-size: 60px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 40px;
+    color: #575757;
+  }
+  
+  .header-left p {
+    font-size: 20px;
+    padding-right: 20%;
+    margin-bottom: 50px;
+    color: #828282;
+    line-height: 32px;
+  }
+  
+  .btn {
+    text-decoration: none;
+    font-size: 18px;
+    background: linear-gradient(to right, #fba24f, #ff1e1e);
+    padding: 24px 43px;
+    border-radius: 100px;
+    color: white;
+    font-weight: 500px;
+    box-shadow: 0px 2px 30px #fc8f4980;
+  }
+  
+  .header-right {
+    width: 50%;
+  }
+  
+  .about {
+    background: url(../images/Frame\ 57.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 0;
+    padding-top: 64px;
+  }
+  
+  .about-left {
+    width: 50%;
+    text-align: center;
+  }
+  
+  .about-left img {
+    width: 55%;
+  }
+  
+  .about-right {
+    width: 50%;
+    padding-bottom: 5%;
+  }
+  
+  .about-right h2 {
+    margin-bottom: 50px;
+  }
+  
+  .about-right p {
+    margin-bottom: 70px;
+  }
+  
+  .recipie-heading {
+    margin-bottom: 40px;
+  }
+  
+  .recipie-heading h2 {
+    margin-bottom: 20px;
+  }
+  
+  .recipie-heading p {
+    font: 18px;
+    line-height: 25px;
+    color: #252525;
+  }
+  
+  .recipie-item {
+    width: 30%;
+    margin: 0 1%;
+    padding: 20px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+  }
+  
+  .recipie-item img {
+    margin-bottom: 40px;
+  }
+  
+  .recipie-item h3 {
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191f;
+    margin-bottom: 10px;
+  }
+  .chefs-item img {
+    height: 300px;
+    width: 350px;
 }
-span {
-  color: #fba24f;
-}
-p {
+.chefs {
+  height: 700px;
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
-.btn {
-  text-decoration: none;
-  font-size: 20px;
-  background: linear-gradient(to right, #fba24f, #ff1e1e);
-  padding: 15px 40px;
-  border-radius: 100px;
-  color: white;
-  font-weight: 500px;
-  box-shadow: 0px 2px 30px #fc8f4980;
+
+.chefs h1 {
+  text-align: center;
+  color: gray;
+  font-weight: 700;
+font-size: 40px;
 }
+
+
+.chefs-list {
+  margin-right: 3%;
+  text-align: center;
+  border: 2px solid #393c3f;
+  padding: 1%;
+}
+div{
+  display: block;
+}
+.chefs-item {
+  display: flex;
+  justify-content: center;
+}
+
