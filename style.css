@@ -189,4 +189,31 @@ div{
   display: flex;
   justify-content: center;
 }
-
+.counter-section{
+  display: flex;
+  margin: 0 5%;
+  background: white;
+  margin-bottom: 100px;
+  box-shadow: 2px 2px 40px rgb(216, 209, 209);
+  border-radius: 20px;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  padding-left: 15%;
+  padding-right: 5%;
+}
+.counter-item{
+  width: 33.33%;
+  text-align: left;
+  line-height: 10px;
+}
+h2{
+  font-size: 40px;
+  font-weight: 700;
+}
+h5{
+  font-weight: bold;
+  font-size: 20px;
+  height: 30px;
+  width: fit-content;
+  margin-inline: -30px;
+}
